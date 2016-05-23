@@ -1,0 +1,47 @@
+{
+  "name": "reactive-react",
+  "version": "1.0.0",
+  "description": "Reactive react example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "BABEL_ENV=production ./node_modules/.bin/webpack --config webpack.config.production.js",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "keywords": [
+    "react",
+    "es6",
+    "babel",
+    "webpack"
+  ],
+  "author": "Johan Gustafsson",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-runtime": "^6.3.19",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "rx": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.21",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-react-transform": "^2.0.0-beta1",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "eslint": "^0.21.2",
+    "eslint-plugin-react": "^2.3.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.7.0",
+    "react-transform-hmr": "^1.0.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.8.0"
+  }
+}
